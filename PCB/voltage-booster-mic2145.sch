@@ -2018,6 +2018,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="99.06" y="101.6" size="1.778" layer="97">R3 set for 9V</text>
 <text x="137.16" y="139.7" size="1.778" layer="97" align="center-left">-9VDC</text>
 <text x="137.16" y="119.38" size="1.778" layer="97" align="center-left">+9VDC</text>
+<text x="101.6" y="99.06" size="1.778" layer="97">Put a trim pot here.</text>
+<text x="66.04" y="134.62" size="1.778" layer="97">Change to 10uH</text>
+<text x="99.06" y="137.16" size="1.778" layer="97">Change to
+0.5ohm</text>
+<text x="104.14" y="124.46" size="1.778" layer="97">Higher value
+10uF</text>
+<text x="147.32" y="114.3" size="1.778" layer="97">1n4148 on
+output to
+balance neg
+diode drop.</text>
+<text x="45.72" y="86.36" size="1.778" layer="97">Change R2
+to 10K</text>
 </plain>
 <instances>
 <instance part="SHEET1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -2329,6 +2341,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
